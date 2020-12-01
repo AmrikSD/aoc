@@ -2,7 +2,7 @@ input = [1310,1960,1530,1453,1572,1355,1314,1543,1439,1280,1367,1368,1313,1423,1
 
 input = input.sort((a, b) => a - b)
 
-left = 0;
+left = 0
 right = input.length - 1
 
 function getLeftRight(left,right,input,expected){
@@ -27,7 +27,7 @@ for(i of input){
   for(j of input){
     for(k of input){
       if(i+j+k==2020){
-        return console.log(i*j*k);
+        return console.log(i*j*k)
       }
     }
   }
